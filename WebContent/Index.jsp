@@ -22,82 +22,64 @@
 
 
 	<div class="jumbotron">
-		<div class="container">
-			<h3 class="display-3">Enter Query</h3>
+
+		<div class="container center_div">
+		<div class="text-center">
+			<h1>Semantic Web</h1>
+			</div>
 			<form action="FormServlet" method="GET" class="form-horizontal">
-				<div class="form-group">
-					<textarea class="form-control" name="query" rows="5"></textarea>
+
+                <div class="row">
+                                <div class="form-group ">
+					<textarea class="form-control" name="query" rows="6" placeholder="Enter Query"></textarea>
 				</div>
-				<div class="form-group">
-							<input class="btn btn-primary btn-lg" href="#" type="submit" role="button" value="Run Query">
-						</p>
+        </div>
+				<div class="form-group text-center">
+							<input class="btn btn-success btn-lg" href="#" role="button" value="Run Query" type="submit">
+						<p></p>
 					
 
 				</div>
 				</form>
 		</div>
 </div>
-		<!-- <div class="container">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce
-						dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-						ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-						magna mollis euismod. Donec sed odio dui.</p>
-					<p>
-						<a class="btn btn-secondary" href="#" role="button">View
-							details &raquo;</a>
-					</p>
+					<h2>Query Example</h2>
+					<p>Some Query Examples</p>
+					
 				</div>
 				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce
-						dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-						ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-						magna mollis euismod. Donec sed odio dui.</p>
-					<p>
-						<a class="btn btn-secondary" href="#" role="button">View
-							details &raquo;</a>
-					</p>
+					<h2>Data Set</h2>
+					<p>Something aboit data</p>
+					
 				</div>
 				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
-						in, egestas eget quam. Vestibulum id ligula porta felis euismod
-						semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-						condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p>
-						<a class="btn btn-secondary" href="#" role="button">View
-							details &raquo;</a>
-					</p>
+					<h2>Team</h2>
+					<p>About team</p>
+					
 				</div>
-			</div>-->
+			</div>
 			<hr>
 
 			<footer>
 			<p>Using Bootstrap</p>
 			</footer>
-		</div>
+		
 		<!-- /container -->
 
 
 		<!-- Bootstrap core JavaScript
     ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script
-			src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"
-			integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
-			crossorigin="anonymous"></script>
+		<script src="Semantic%20Web_files/jquery.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 		<script>
 			window.jQuery
 					|| document
 							.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"><\/script>')
 		</script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"
-			integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
-			crossorigin="anonymous"></script>
-		<script src="Bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
+		<script src="Semantic%20Web_files/tether.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+		<script src="Semantic%20Web_files/bootstrap.js"></script>
+
+</body></html>

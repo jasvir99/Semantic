@@ -10,3 +10,14 @@ body {
 .navbar-dark .navbar-brand, .navbar-dark .navbar-toggler {
     color: #fff !important;
 }
+.center_div{
+        margin: auto auto;
+            width:45% /* value of your choice which suits your alignment */
+        }
+.text-center {
+	margin-bottom: 15% !important;
+
+}
+.jumbotron {
+	padding-top: 0px !important;
+}
