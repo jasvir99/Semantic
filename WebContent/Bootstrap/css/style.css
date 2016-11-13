@@ -1,23 +1,57 @@
-body {
-  padding-bottom: 2rem;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');body {
+	font-family: 'Open Sans', sans-serif !important;
 }
-.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .active > .nav-link:focus, .navbar-dark .navbar-nav .active > .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.active:focus, .navbar-dark .navbar-nav .nav-link.active:hover, .navbar-dark .navbar-nav .nav-link.open, .navbar-dark .navbar-nav .nav-link.open:focus, .navbar-dark .navbar-nav .nav-link.open:hover, .navbar-dark .navbar-nav .open > .nav-link, .navbar-dark .navbar-nav .open > .nav-link:focus, .navbar-dark .navbar-nav .open > .nav-link:hover {
-    color: #fff !important;
-}
-.bg-inverse {
-    background-color: #373a3c !important;
-}
-.navbar-dark .navbar-brand, .navbar-dark .navbar-toggler {
-    color: #fff !important;
-}
-.center_div{
-        margin: auto auto;
-            width:45% /* value of your choice which suits your alignment */
-        }
-.text-center {
-	margin-bottom: 15% !important;
 
+body {
+	background-image: url(images/bg.png) !important;
 }
+
+.navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .active>.nav-link:focus,.navbar-dark .navbar-nav .active>.nav-link:hover,.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link.active:focus,.navbar-dark .navbar-nav .nav-link.active:hover,.navbar-dark .navbar-nav .nav-link.open,.navbar-dark .navbar-nav .nav-link.open:focus,.navbar-dark .navbar-nav .nav-link.open:hover,.navbar-dark .navbar-nav .open>.nav-link,.navbar-dark .navbar-nav .open>.nav-link:focus,.navbar-dark .navbar-nav .open>.nav-link:hover
+	{
+	color: #fff !important;
+}
+
+.bg-inverse {
+	background-color: #373a3c !important;
+}
+
+.navbar-dark .navbar-brand,.navbar-dark .navbar-toggler {
+	color: #fff !important;
+}
+
+.center_div {
+	margin: auto auto;
+	width: 45% /* value of your choice which suits your alignment */
+}
+
+.text-center-heading {
+	margin-bottom: 15% !important;
+}
+
 .jumbotron {
 	padding-top: 0px !important;
+}
+
+.btn-lg {
+	width: 100% !important;
+}
+img {
+	height: 50px !important;
+}
+
+.media-body {
+	vertical-align: middle;
+}
+
+.media {
+    margin-top: 10px;
+}
+.table {
+	width: 80% !important;
+	margin: auto auto ;
+	
+}
+
+.up-arrow {
+	font-size: 40px;
 }
