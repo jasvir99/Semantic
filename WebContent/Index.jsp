@@ -30,13 +30,13 @@
 			<form class="form-horizontal">
 
 				<div class="row">
-					<div class="form-group">
+					<div class="form-group" id="dataset_name_group">
 						<input type="text" class="form-control" id="dataset_name"
 							placeholder="Data Set Name" required>
 					</div>
-					<div class="form-group ">
-						<textarea class="form-control" name="query" rows="12"
-							placeholder="Enter Query" required></textarea>
+					<div class="form-group " id="query_field_group">
+						<textarea class="form-control" id="query_field" name="query"
+							rows="12" placeholder="Enter Query" required></textarea>
 					</div>
 				</div>
 				<div class="form-group text-center">
@@ -49,8 +49,8 @@
 			</form>
 			
 		</div>
-		<div class="up-arrow glyphicon glyphicon-triangle-top">
-			</div>
+		<p class=" up-arrow">Show Query<span class="glyphicon glyphicon-triangle-top"></span></p>
+		
 		<div class="results">
 		</div>
 	</div>
