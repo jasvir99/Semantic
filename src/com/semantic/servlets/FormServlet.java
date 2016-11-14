@@ -1,5 +1,4 @@
 package com.semantic.servlets;
-
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
@@ -19,7 +18,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 //import org.apache.jena.rdf.model.ModelFactory;
 
 /**
@@ -45,36 +43,37 @@ public class FormServlet extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
-		String file_path = request.getParameter("input_dataset");
-		String sparql_query = request.getParameter("query");
-		int count = 0;
-
-		if (sparql_query == null) {
+        String file_path = request.getParameter("input_dataset");
+        String sparql_query = request.getParameter("query");
+        int count = 0;
+       
+        if (sparql_query == null) {
 			RequestDispatcher view = request.getRequestDispatcher("Index.jsp");
 			view.forward(request, response);
 		} else {
-			Pattern pliteral = Pattern.compile("\"([^\"]*)\"");
-			Pattern hliteral = Pattern.compile("\\?([^\"]*)\"");
-			out.println("<!DOCTYPE html>");
-			out.println("<html>");
-			out.println("<head>");
-			out.println("<title>Servlet SparqlQueryCompiler</title>");
-			out.println("</head>");
-			out.println("<body> <div class=\"table-responsive\"><table class=\" table table-striped\">");
-			out.println("<tr>");
-			out.println("<th> Heading 1</th>");
-			out.println("<th> Heading 2</th>");
-			out.println("</tr>");
-			for (int i = 0; i < 200; i++) {
-				out.println("<tr>");
-				out.println("<td>" + i + "</td>");
-				out.println("<td>" + i + " 2</td>");
-				out.println("</tr>");
-			}
-			out.println("</table></div></body></html>");
-
+            Pattern pliteral = Pattern.compile("\"([^\"]*)\"");
+            Pattern hliteral = Pattern.compile("\\?([^\"]*)\"");
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet SparqlQueryCompiler</title>");            
+            out.println("</head>");
+            out.println("<body> <div class=\"table-responsive\"><table class=\" table table-striped\">");
+            out.println("<tr>");
+        	out.println("<th> Heading 1</th>");
+        	out.println("<th> Heading 2</th>");
+        	out.println("</tr>");
+            for(int i = 0; i < 200; i++)
+            {
+            	out.println("<tr>");
+            	out.println("<td>" + i + "</td>");
+            	out.println("<td>" + i + "</td>");
+            	out.println("</tr>");
+            }
+            out.println("</table></div></body></html>");
+            
 		}
-	}
+    }
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse

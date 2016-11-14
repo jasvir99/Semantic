@@ -31,8 +31,8 @@
 
 				<div class="row">
 					<div class="form-group" id="dataset_name_group">
-						<input type="text" class="form-control" id="dataset_name"
-							placeholder="Data Set Name" required>
+						<input type="text" class="form-control" name="input_dataset" id="dataset_name"
+							placeholder="Data Set URL" required>
 					</div>
 					<div class="form-group " id="query_field_group">
 						<textarea class="form-control" id="query_field" name="query"

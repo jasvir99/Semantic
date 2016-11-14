@@ -34,7 +34,9 @@ $(document)
 											}
 											return false;
 										}
-										var request_url = "/Semantic/FormServlet?query=This+is+my+query";
+										var dataset = $("#dataset_name").val();
+										var query = $("#query_field").val();
+										var request_url = "/Semantic/FormServlet?query=" + query + "&&input_dataset=" + dataset;
 
 										$.ajax({
 											url : request_url,
