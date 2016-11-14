@@ -63,7 +63,7 @@ public class FormServlet extends HttpServlet {
         	out.println("<th> Heading 1</th>");
         	out.println("<th> Heading 2</th>");
         	out.println("</tr>");
-            for(int i = 0; i < 200; i++)
+            for(int i = 0; i < 40000; i++)
             {
             	out.println("<tr>");
             	out.println("<td>" + i + "</td>");

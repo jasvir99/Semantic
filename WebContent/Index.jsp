@@ -14,7 +14,7 @@
 <meta name="author" content="">
 <link rel="icon" href="../../favicon.ico">
 
-<title>Semantic Web</title>
+<title>SPARQL Engine</title>
 
 </head>
 
@@ -22,10 +22,12 @@
 
 
 	<div class="jumbotron">
-
+<div class="loading-container">
+ <div class="loader"></div>
+ </div>
 		<div class="container center_div form_div">
 			<div class="text-center text-center-heading">
-				<h1>Semantic Web</h1>
+				<h1>SPARQL Engine</h1>
 			</div>
 			<form class="form-horizontal">
 
@@ -39,12 +41,15 @@
 							rows="12" placeholder="Enter Query" required></textarea>
 					</div>
 				</div>
-				<div class="form-group text-center">
-					<button class="btn btn-primary btn-lg query_submit" href="#" id="run_query"
-						value="Run Query" >Submit</button>
-					<p></p>
+				<div class="row">
+    <div class="col-sm-12 text-center">
+					<button class="btn btn-primary btn-md" href="#" id="reset_button"
+						value="Run Query" >Reset Query</button>
+					<button class="btn btn-primary btn-md query_submit" href="#" id="run_query"
+						value="nofulldata" >Run Query</button>
 
 
+				</div>
 				</div>
 			</form>
 			
@@ -54,7 +59,7 @@
 		<div class="results">
 		</div>
 	</div>
-	
+	<div class="footer-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -72,24 +77,18 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="#"> <img class="media-object"
-							src="images/eclipse.png" alt="jena">
+							src="images/netbeans-6-5.png" alt="jena">
 						</a>
 					</div>
 					<div class="media-body">
-						<h4 class="media-heading">Eclipse IDE</h4>
+						<h4 class="media-heading">NetBeans</h4>
 					</div>
 				</div>
 
 			</div>
 			<div class="col-md-4">
-				<h2>Data Set</h2>
-				<h4>Air Quality Measures on the National Environmental Health
-					Tracking Network.</h4>
-				<h4>
-					Click <a
-						href="https://catalog.data.gov/dataset/air-quality-measures-on-the-national-environmental-health-tracking-network">here</a>
-					for further information
-				</h4>
+				<h2>Description</h2>
+				<h4>SPARQL Engine to query any data set available in rdf format.</h4>
 
 			</div>
 			<div class="col-md-4">
@@ -108,12 +107,12 @@
 		</div>
 		<hr>
 
-		<footer>
+		<footer >
 		<div class="text-center">
 			<p>Using <a href="http://getbootstrap.com/">Bootstrap</a></p>
 		</div>
 		</footer>
-
+</div>
 		<!-- /container -->
 
 
